@@ -4,6 +4,7 @@ import { auth } from '@clerk/nextjs/dist/types/server';
 
 
 
+
  // Configuration
  cloudinary.config({ 
     cloud_name: process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME, 

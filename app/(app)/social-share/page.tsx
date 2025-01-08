@@ -106,7 +106,7 @@ const socialFormats = {
                   <h2 className="card-title mb-4">Select Social Media Format</h2>
                   <div className="form-control">
                     <select
-                      className="select select-bordered w-full"
+                      className="select select-success w-full"
                       value={selectedFormat}
                       onChange={(e) =>
                         setSelectedFormat(e.target.value as SocialFormat)
@@ -144,7 +144,7 @@ const socialFormats = {
                   </div>
 
                   <div className="card-actions justify-end mt-6">
-                    <button className="btn btn-primary" onClick={handleDownload}>
+                    <button className="btn btn-success" onClick={handleDownload}>
                       Download for {selectedFormat}
                     </button>
                   </div>

@@ -7,7 +7,7 @@ import { useClerk, useUser } from "@clerk/nextjs";
 import { sidebarItems } from "@/constants";
 import { LogOutIcon, MenuIcon, ImageIcon } from "lucide-react";
 // import { ContentLogo } from "../../constants/index";
-// import Image from "next/image";
+import Image from "next/image";
 
 export default function AppLayout({
   children,

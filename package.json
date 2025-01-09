@@ -12,7 +12,9 @@
     "@clerk/nextjs": "^6.9.6",
     "@prisma/client": "^5.18.0",
     "axios": "^1.7.9",
+    "class-variance-authority": "^0.7.1",
     "cloudinary": "^2.4.0",
+    "clsx": "^2.1.1",
     "dayjs": "^1.11.13",
     "filesize": "^10.1.6",
     "lucide-react": "^0.424.0",
@@ -20,7 +22,9 @@
     "next-cloudinary": "^6.9.0",
     "react": "^18",
     "react-dom": "^18",
-    "react-toastify": "^11.0.2"
+    "react-toastify": "^11.0.2",
+    "tailwind-merge": "^2.6.0",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@types/node": "^20.14.14",
